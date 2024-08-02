@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Server software | Colbux Archives</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <meta name="description" content="">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap-theme.min.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+                    data-target="#navbar-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Colbux Archives</a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
+                            aria-expanded="false">Archives <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li class="dropdown-header">Sites</li>
+                            <li><a href="sites/NostalgiaPE/index.html" target="_blank">NostalgiaPE</a></li>
+                            <li><a href="sites/WorldPE/index.html" target="_blank">WorldPE</a></li>
+                            <li><a href="https://web.archive.org/web/20230615111008/http://infinityalpha.42web.io/?i=2" target="_blank">InfinityAlpha</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li class="dropdown-header">Tools</li>
+                            <li><a href="0.8ids.html">MCPE 0.8 item id's</a></li>
+                            <li><a href="oldserversoftware.html">Old server software</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="mcpeversions.html">MCPE Alpha versions</a></li>
+                    <li class="active"><a href="software.html">Server software</a></li>
+                    <li><a href="servers.html">Servers archives</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <div class="container">
+        
+        <div id="searchResults"></div>
+
+        <div class="search-navigation">
+            <a id="prevResult" class="disabled">&uarr; Previous</a>
+            <a id="nextResult" class="disabled">Next &darr;</a>
+        </div>
+
+        <h2>Server software</h2>
+        <ul class="nav nav-tabs">
+            <li class="active"><a data-toggle="tab" href="#pocketmine">PocketMine-MP</a></li>
+            <li><a data-toggle="tab" href="#nukkit">Nukkit</a></li>
+            <li><a data-toggle="tab" href="#nostalgiacore">NostalgiaCore</a></li>
+        </ul>
+
+        <div class="tab-content">
+            <!-- PocketMine-MP Tab -->
+            <div id="pocketmine" class="tab-pane fade in active">
+                <ul class="nav nav-pills">
+                    <br>
+                    <li class="active"><a data-toggle="pill" href="#pocketmine-releases">Releases</a></li>
+                    <li><a data-toggle="pill" href="#pocketmine-commits">Commits</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="pocketmine-releases" class="tab-pane fade in active">
+                        <h3>PocketMine-MP Releases</h3>
+                        <ul class="list-group">
+                            <!-- PocketMine-MP Releases -->
+                        </ul>
+                    </div>
+                    <div id="pocketmine-commits" class="tab-pane fade">
+                        <h3>PocketMine-MP Commits</h3>
+                        <ul class="list-group">
+                            <!-- PocketMine-MP Commits -->
+                        </ul>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <!-- Pagination will be inserted here -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nukkit Tab -->
+            <div id="nukkit" class="tab-pane fade">
+                <ul class="nav nav-pills">
+                    <br>
+                    <li class="active"><a data-toggle="pill" href="#nukkit-releases">Releases</a></li>
+                    <li><a data-toggle="pill" href="#nukkit-commits">Commits</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="nukkit-releases" class="tab-pane fade in active">
+                        <h3>Nukkit Releases</h3>
+                        <ul class="list-group">
+                            <!-- Nukkit Releases -->
+                        </ul>
+                    </div>
+                    <div id="nukkit-commits" class="tab-pane fade">
+                        <h3>Nukkit Commits</h3>
+                        <ul class="list-group">
+                            <!-- Nukkit Commits -->
+                        </ul>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <!-- Pagination will be inserted here -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+
+            <!-- NostalgiaCore Tab -->
+            <div id="nostalgiacore" class="tab-pane fade">
+                <ul class="nav nav-pills">
+                    <br>
+                    <li class="active"><a data-toggle="pill" href="#nostalgiacore-releases">Releases</a></li>
+                    <li><a data-toggle="pill" href="#nostalgiacore-commits">Commits</a></li>
+                </ul>
+
+                <div class="tab-content">
+                    <div id="nostalgiacore-releases" class="tab-pane fade in active">
+                        <h3>NostalgiaCore Releases</h3>
+                        <ul class="list-group">
+                            <!-- NostalgiaCore Releases -->
+                        </ul>
+                    </div>
+                    <div id="nostalgiacore-commits" class="tab-pane fade">
+                        <h3>NostalgiaCore Commits</h3>
+                        <ul class="list-group">
+                            <!-- NostalgiaCore Commits -->
+                        </ul>
+                        <nav aria-label="Page navigation">
+                            <ul class="pagination">
+                                <!-- Pagination will be inserted here -->
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(document).ready(function() {
+            const repos = [
+                { id: 'PocketMine-MP', repo: 'PocketMine/PocketMine-MP' },
+                { id: 'Nukkit', repo: 'Nukkit/Nukkit' },
+                { id: 'NostalgiaCore', repo: 'kotyaralih/NostalgiaCore' }
+            ];
+
+            repos.forEach(repo => {
+                fetchReleases(repo.id, repo.repo);
+                fetchCommits(repo.id, repo.repo, 1);
+            });
+
+            function fetchReleases(id, repo) {
+                const releasesUrl = `https://api.github.com/repos/${repo}/releases`;
+
+                $.getJSON(releasesUrl, function(data) {
+                    let releaseList = $(`#${id.toLowerCase()}-releases .list-group`);
+                    releaseList.empty();
+
+                    data.forEach(function(release) {
+                        let releaseItem = `
+                            <li class="list-group-item">
+                                <a href="${release.html_url}" target="_blank">${release.name}</a>
+                                <a href="${release.html_url}" target="_blank" class="btn btn-primary btn-sm pull-right">Download</a>
+                            </li>
+                        `;
+                        releaseList.append(releaseItem);
+                    });
+                });
+            }
+
+            function fetchCommits(id, repo, page) {
+                const commitsUrl = `https://api.github.com/repos/${repo}/commits?page=${page}&per_page=15`;
+
+                $.getJSON(commitsUrl, function(data) {
+                    let commitList = $(`#${id.toLowerCase()}-commits .list-group`);
+                    commitList.empty();
+
+                    data.forEach(function(commit) {
+                        let commitItem = `
+                            <li class="list-group-item">
+                                <a href="${commit.html_url}" target="_blank">${commit.sha.substring(0, 7)}</a>
+                                <a href="${commit.html_url}" target="_blank" class="btn btn-primary btn-sm pull-right">Open commit</a>
+                            </li>
+                        `;
+                        commitList.append(commitItem);
+                    });
+
+                    createPagination(id, repo, page);
+                });
+            }
+
+            function createPagination(id, repo, currentPage) {
+                const pagination = $(`#${id.toLowerCase()}-commits .pagination`);
+                pagination.empty();
+
+                for (let i = 1; i <= 15; i++) { // Show 5 pages for simplicity
+                    let pageItem = `
+                        <li class="${i === currentPage ? 'active' : ''}">
+                            <a href="#" class="page-link" data-id="${id}" data-repo="${repo}" data-page="${i}">${i}</a>
+                        </li>
+                    `;
+                    pagination.append(pageItem);
+                }
+            }
+
+            $(document).on('click', '.page-link', function(e) {
+                e.preventDefault();
+                const id = $(this).data('id');
+                const repo = $(this).data('repo');
+                const page = $(this).data('page');
+                fetchCommits(id, repo, page);
+            });
+        });
+    </script>
+</body>
+</html>

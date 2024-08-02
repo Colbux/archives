@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>MCPE Alpha versions | Colbux Archives</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="List of all Minecraft PE Alpha versions">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    <style type="text/css">
+        body {
+            padding-top: 60px;
+            padding-bottom: 40px;
+            overflow-x: auto;
+            word-wrap: break-word;
+        }
+
+        .search-container .form-control {
+            border-right: 0;
+        }
+
+        .search-container .input-group-append .input-group-text {
+            background-color: white;
+            border-left: 0;
+        }
+
+        .search-icon {
+            color: #555;
+        }
+
+        .version-item {
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            padding: 15px;
+            margin: 10px 0;
+            background-color: #f9f9f9;
+        }
+
+        .version-filter {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.version-filter .btn {
+    flex: 1 1 auto;
+    margin-bottom: 2px;
+}
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Colbux Archives</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-collapse"
+                aria-controls="navbar-collapse" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-collapse">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="archivesDropdown" role="button"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Archives</a>
+                        <div class="dropdown-menu" aria-labelledby="archivesDropdown">
+                            <h6 class="dropdown-header">Sites</h6>
+                            <a class="dropdown-item" href="sites/NostalgiaPE/index.html" target="_blank">NostalgiaPE</a>
+                            <a class="dropdown-item" href="sites/WorldPE/index.html" target="_blank">WorldPE</a>
+                            <a class="dropdown-item"
+                                href="https://web.archive.org/web/20230615111008/http://infinityalpha.42web.io/?i=2"
+                                target="_blank">InfinityAlpha</a>
+                            <div class="dropdown-divider"></div>
+                            <h6 class="dropdown-header">Tools</h6>
+                            <a class="dropdown-item" href="0.8ids.html">MCPE 0.8 item id's</a>
+                            <a class="dropdown-item" href="oldserversoftware.html">Old server software</a>
+                        </div>
+                    </li>
+                    <li class="nav-item active"><a class="nav-link" href="mcpeversions.html">MCPE Alpha versions</a></li>
+                    <li class="nav-item"><a class="nav-link" href="servers.html">Servers archives</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container">
+
+        <h1>MCPE Alpha versions</h1>
+        <p>List of all versions of Minecraft PE from 0.1.0 to 0.17.0.2</p>
+        <div class="alert alert-warning" role="alert">The list is constantly being updated. If you have something to
+            offer, please <a href="contact.html">contact</a> the owner of this site.</div>
+
+        <hr>
+
+        <div class="row">
+            <div class="col-md-12">
+                <div class="btn-group version-filter">
+                    <button type="button" class="btn btn-secondary tab" data-type="All">All</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Release">Release</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Lite">Lite</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Demo">Demo</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Alpha">Alpha</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Build">Build</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Test">Test</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="x86">x86</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="IPA">IPA</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="J">J</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Realms">Realms</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="FireTV">FireTV</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Gingerbread">Gingerbread</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="AmzApp">AmzApp</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Honeycomb">Honeycomb</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="ICS">ICS</button>
+                    <button type="button" class="btn btn-secondary tab" data-type="Win10">Win10</button>
+                </div>
+            </div>
+        </div>
+        <br>
+
+        <div class="input-group search-container">
+            <input type="text" class="form-control" placeholder="Search for versions" id="search-input">
+            <span class="input-group-addon"><i class="fas fa-search search-icon"></i></span>
+        </div>
+        <br>
+
+        <div class="row">
+            <div class="col-md-12" id="version-list"></div>
+        </div>
+
+        <p>Versions for this list were taken from: <a href="https://archive.org/details/MCPEAlpha" target="_blank">https://archive.org/details/MCPEAlpha</a>, <a href="https://archive.org/details/minecraft-pocket-edition-versions-ipa" target="_blank">https://archive.org/details/minecraft-pocket-edition-versions-ipa</a>, <a href="https://archive.org/details/mcpe-0.8.1-ios" target="_blank">https://archive.org/details/mcpe-0.8.1-ios</a>, <a href="https://archive.org/details/PocketEditionAlpha" target="_blank">https://archive.org/details/PocketEditionAlpha</a>, <a href="https://archive.org/details/com.mojang.minecraftpe-demo-ios4.3-clutch-2.0.4-4" target="_blank">https://archive.org/details/com.mojang.minecraftpe-demo-ios4.3-clutch-2.0.4-4</a></p>
+        
+        <a href="//adfoc.us/?refid=857777" target="_blank"><img src="https://adfoc.us/images/banners/468x60-3.gif" border="0" alt="AdFoc.us Banner"></a>
+        <br>
+
+        <footer>
+            <p>&copy; Colbux 2024</p>
+        </footer>
+
+    </div><!-- /.container -->
+
+    <script src="mcpeversions.js"></script>
+</body>
+
+</html>
