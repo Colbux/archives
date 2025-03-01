@@ -90,6 +90,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.1.3j.apk"
     },
     {
+        "version": "0.1.3",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.1.3.ipa"
+    },
+    {
         "version": "0.2.0-1",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.2.0-1.apk"
@@ -103,6 +108,11 @@
         "version": "0.2.0 demo",
         "type": "Demo",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.2.0-demo.apk"
+    },
+    {
+        "version": "0.2.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.2.0.ipa"
     },
     {
         "version": "0.2.0j demo",
@@ -155,6 +165,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.2.2.apk"
     },
     {
+        "version": "0.3.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.3.0.ipa"
+    },
+    {
         "version": "0.3.0-1",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.3.0-1.apk"
@@ -200,6 +215,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.4.0.apk"
     },
     {
+        "version": "0.4.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.4.0.ipa"
+    },
+    {
         "version": "0.4.0j",
         "type": "Release, J",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.4.0j.apk"
@@ -220,6 +240,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.5.0.apk"
     },
     {
+        "version": "0.5.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.5.0.ipa"
+    },
+    {
         "version": "0.5.0j",
         "type": "Release, J",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.5.0j.apk"
@@ -236,6 +261,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.6.0.apk"
     },
     {
+        "version": "0.6.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.6.0.ipa"
+    },
+    {
         "version": "0.6.1 x86",
         "type": "Release, x86",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.6.1-x86.apk"
@@ -244,6 +274,11 @@
         "version": "0.6.1",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.6.1.apk"
+    },
+    {
+        "version": "0.6.1",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.6.1.ipa"
     },
     {
         "version": "0.7.0 x86",
@@ -256,6 +291,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.0.apk"
     },
     {
+        "version": "0.7.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.0.ipa"
+    },
+    {
         "version": "0.7.1 x86",
         "type": "Release, x86",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.1-x86.apk"
@@ -266,6 +306,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.1.apk"
     },
     {
+        "version": "0.7.1",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.1.ipa"
+    },
+    {
         "version": "0.7.2 x86",
         "type": "Release, x86",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.2-x86.apk"
@@ -274,6 +319,11 @@
         "version": "0.7.2",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.2.apk"
+    },
+    {
+        "version": "0.7.2",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.2.ipa"
     },
     {
         "version": "0.7.3 gingerbread",
@@ -289,6 +339,11 @@
         "version": "0.7.3",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.3.apk"
+    },
+    {
+        "version": "0.7.3",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.3.ipa"
     },
     {
         "version": "0.7.4 AmzApp",
@@ -311,6 +366,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.4.apk"
     },
     {
+        "version": "0.7.4",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.4.ipa"
+    },
+    {
         "version": "0.7.5 gingerbread",
         "type": "Release, Gingerbread",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.5-gingerbread.apk"
@@ -326,6 +386,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.5.apk"
     },
     {
+        "version": "0.7.5",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.5.ipa"
+    },
+    {
         "version": "0.7.6 gingerbread",
         "type": "Release, Gingerbread",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.6-gingerbread.apk"
@@ -339,6 +404,11 @@
         "version": "0.7.6",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.7.6.apk"
+    },
+    {
+        "version": "0.7.6",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.7.6.ipa"
     },
     {
         "version": "0.8.0 build2",
@@ -391,6 +461,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.8.0.apk"
     },
     {
+        "version": "0.8.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.8.0.ipa"
+    },
+    {
         "version": "0.8.0 test1 alt",
         "type": "Test",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.8.0_test1-alt.apk"
@@ -413,6 +488,11 @@
         "version": "0.8.1",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.8.1.apk"
+    },
+    {
+        "version": "0.8.1",
+        "type": "Release",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.8.1.ipa"
     },
     {
         "version": "0.9.0 build1 gingerbread",
@@ -1363,6 +1443,11 @@
         "version": "0.14.2",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.14.2.apk"
+    },
+    {
+        "version": "0.14.3",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/modified%20names%28use%20multiple%20on%20one%20device%29/minecraftpe0143.ipa"
     },
     {
         "version": "0.14.3-1 gingerbread",
