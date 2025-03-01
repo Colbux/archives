@@ -50,6 +50,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.1.2.apk"
     },
     {
+        "version": "0.1.2",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.1.2.ipa"
+    },
+    {
         "version": "0.1.2j demo",
         "type": "J, Demo",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.1.2j-demo.apk"
@@ -193,6 +198,11 @@
         "version": "0.3.2",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.3.2.apk"
+    },
+    {
+        "version": "0.3.2",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.3.2.ipa"
     },
     {
         "version": "0.3.2j",
@@ -493,6 +503,11 @@
         "version": "0.8.1",
         "type": "Release",
         "download_link": "https://archive.org/download/old-mcpe-stuff/old%20mcpe%20mods%20IOS/ipa%20files/MCPE_0.8.1.ipa"
+    },
+    {
+        "version": "0.9",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/Updated%20iPA/0.9.ipa"
     },
     {
         "version": "0.9.0 build1 gingerbread",
@@ -865,6 +880,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.10.0.apk"
     },
     {
+        "version": "0.10.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.10.0.ipa"
+    },
+    {
         "version": "0.10.1 gingerbread",
         "type": "Release, Gingerbread",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.10.1-gingerbread.apk"
@@ -1003,6 +1023,11 @@
         "version": "0.11.0",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.11.0.apk"
+    },
+    {
+        "version": "0.11.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.11.0.ipa"
     },
     {
         "version": "0.11.1-1 gingerbread",
@@ -1210,6 +1235,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.12.1.apk"
     },
     {
+        "version": "0.12.1",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.12.1.ipa"
+    },
+    {
         "version": "0.12.3 AmzApp",
         "type": "Release, AmzApp",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.12.3-AmzApp.apk"
@@ -1298,6 +1328,11 @@
         "version": "0.13.0",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.13.0.apk"
+    },
+    {
+        "version": "0.13.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.13.0.ipa"
     },
     {
         "version": "0.13.1 honeycomb",
@@ -1435,6 +1470,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.14.0.apk"
     },
     {
+        "version": "0.14.0",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.14.0.ipa"
+    },
+    {
         "version": "0.14.1",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.14.1.apk"
@@ -1540,6 +1580,11 @@
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.15.0.1.apk"
     },
     {
+        "version": "0.15.0.1",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.15.0-1.ipa"
+    },
+    {
         "version": "0.15.0.50",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.15.0.50.apk"
@@ -1603,6 +1648,11 @@
         "version": "0.15.90.8",
         "type": "Release",
         "download_link": "https://archive.org/download/MCPEAlpha/PE-a0.15.90.8.apk"
+    },
+    {
+        "version": "0.16.0-1",
+        "type": "IPA",
+        "download_link": "https://archive.org/download/allmcpeipa/Mcpe/OG%20iPA/Minecraft%20PE%200.16.0-1.ipa"
     },
     {
         "version": "0.16.2.2 x86",
